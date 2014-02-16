@@ -30,8 +30,8 @@
   <fieldset>
   <legend>Custom Shoe Design</legend>
  
-  
-  <p>Color <em>(choose one)</em>:</p>  
+  <fieldset>
+  <legend>Color <em>(choose one)</em>:</legend>  
   
   <ul>  
   <li><label><input type="radio" name="color" value="red">Red</label></li>  
@@ -39,9 +39,10 @@
   <li><label><input type="radio" name="color" value="black">Black</label></li>  
   <li><label><input type="radio" name="color" value="silver">Silver</label></li>  
   </ul>
+ </fieldset>
  
- 
-  <p>Features <em>(Choose as many as you want)</em></p>  
+  <fieldset>
+  <legend>Features <em>(Choose as many as you want)</em></legend>  
   
   <ul>  
   <li><label><input type="checkbox" name="feature" value="laces">Sparkley laces</label></li> 
@@ -49,9 +50,11 @@
   <li><label><input type="checkbox" name="feature" value="heels">Light-up heels</label></li>  
   <li><label><input type="checkbox" name="feature" value="mp3">MP3-enabled</label></li>  
   </ul>
+  </fieldset>
   
-  <p>Size</p>
-  <p>Sizes reflect standard men's sizes:
+  <fieldset>
+  <legend>Size</legend>
+  <p><label for="form-size">Sizes reflect standard men's sizes:</label>
    <select name="size" size="1">
    <option>5</option>
    <option>6</option>
@@ -66,6 +69,7 @@
    </p>
   </fieldset>
  
+  </fieldset>
  
   <p><input type="submit" value="Pimp My Shoes!"><input type="reset"></p>
   </form>
