@@ -15,7 +15,7 @@
   <form action="http://www.learningwebdesign.com/contest.php" method="post">
   
   <fieldset>
-  <legend>Contest Entry Information</legend>>
+  <legend>Contest Entry Information</legend>
   
   <ul>
   <li><label for="form-name">Name:</label><input type="text" name="username" id="form-name"></li>
@@ -34,18 +34,20 @@
   <p>Color <em>(choose one)</em>:</p>  
   
   <ul>  
-  <li>Red</li>  
-  <li>Blue</li>  
-  <li>Black</li>  
-  <li>Silver</li>  
+  <li><label><input type="radio" name="color" value="red">Red</label></li>  
+  <li><label><input type="radio" name="color" value="blue">Blue</label></li>  
+  <li><label><input type="radio" name="color" value="black">Black</label></li>  
+  <li><label><input type="radio" name="color" value="silver">Silver</label></li>  
   </ul>
+ 
+ 
   <p>Features <em>(Choose as many as you want)</em></p>  
   
   <ul>  
-  <li>Sparkley laces</li> 
-  <li>Metallic logo</li>  
-  <li>Light-up heels</li>  
-  <li>MP3-enabled</li>  
+  <li><label><input type="checkbox" name="feature" value="laces">Sparkley laces</label></li> 
+  <li><label><input type="checkbox" name="feature" value="logo" checked> Metallic logo</label></li>  
+  <li><label><input type="checkbox" name="feature" value="heels">Light-up heels</label></li>  
+  <li><label><input type="checkbox" name="feature" value="mp3">MP3-enabled</label></li>  
   </ul>
   
   <p>Size</p>
